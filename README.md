@@ -15,7 +15,7 @@ GNU Stow is a symlink farm manager which takes distinct sets of software and/or 
 | package directory | /usr/local/stow/perl | ~/.dotfiles/zsh |
 | part of installation image | bin/perl | .zshrc |
 
-### Creating `.dotfiles` (or stow directory) for the very first time
+## Creating `.dotfiles` (or stow directory) for the very first time
 
 - performed once at the very beginning
 
@@ -125,11 +125,11 @@ MV: .config/nvim/coc-settings.json -> .dotfiles/nvim/.config/nvim/coc-settings.j
 LINK: .config/nvim/coc-settings.json => ../../.dotfiles/nvim/.config/nvim/coc-settings.json
 ```
 
-### Using `.dotfiles` from Github on a new computer
+## Using `.dotfiles` from Github on a new computer
 
 - Download the stow directory (`.dotfiles` in my case) from git in home directory
 
-# Stow or restore your config files
+### Stow or restore your config files
 
 ```bash
 # check what happens
@@ -141,7 +141,7 @@ LINK: .config/nvim/coc-settings.json => ../../.dotfiles/nvim/.config/nvim/coc-se
 # now corresponding symlinks are created in the home directory
 ```
 
-# remove symlinks or unlink
+### remove symlinks or unlink
 
 ```bash
 # check what happens
